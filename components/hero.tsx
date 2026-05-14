@@ -32,11 +32,11 @@ export default function Hero() {
           alt="Valley Pressure Washing logo"
           width={1680}
           height={576}
-          className="h-[105px] sm:h-[150px] md:h-[195px] lg:h-[240px] w-auto object-contain mx-auto mb-3 md:mb-4"
+          className="h-[105px] sm:h-[150px] md:h-[195px] lg:h-[240px] w-auto object-contain mx-auto mb-2"
           priority
         />
         <h1
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-3 md:mb-4"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-2 md:mb-3"
           style={{ fontFamily: 'var(--font-heading, var(--font-sans))' }}
         >
           Restore Your Property&apos;s{' '}
