@@ -23,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-primary/80 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-6 -mt-[75px]">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-6 -mt-[20px]">
         <p className="text-white/70 text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase mb-2 md:mb-3">
           Quispamsis &amp; Greater Saint John Area
         </p>
