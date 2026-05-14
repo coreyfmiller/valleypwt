@@ -5,16 +5,16 @@ import { Facebook, Instagram, Linkedin } from 'lucide-react'
 export default function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground" role="contentinfo">
-      <div className="max-w-7xl mx-auto px-6 py-14">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-14">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-10">
           {/* Brand */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 sm:col-span-2 md:col-span-1">
             <Image
               src="/logo.png"
               alt="Valley Pressure Washing logo"
               width={520}
               height={176}
-              className="h-40 w-auto object-contain"
+              className="h-24 sm:h-32 md:h-40 w-auto object-contain"
             />
             <p className="text-primary-foreground/60 text-sm leading-relaxed max-w-xs">
               Professional pressure washing services in Quispamsis and the Greater Saint John area.

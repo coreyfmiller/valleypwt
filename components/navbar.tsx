@@ -18,7 +18,7 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md shadow-lg transition-all duration-300"
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center">
+      <div className="max-w-7xl mx-auto px-6 py-3 md:py-4 flex items-center justify-between md:justify-center">
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
           {navLinks.map((link) => (

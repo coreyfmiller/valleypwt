@@ -23,8 +23,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="contact" className="py-16 md:py-24 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="text-center mb-16">
           <p className="text-secondary text-sm font-semibold tracking-[0.2em] uppercase mb-3">
@@ -42,7 +42,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Info panel */}
           <div className="lg:col-span-2 flex flex-col gap-8">
             {/* Location */}
@@ -114,7 +114,7 @@ export default function Contact() {
           </div>
 
           {/* Contact form */}
-          <div className="lg:col-span-3 bg-card border border-border rounded-2xl p-8">
+          <div className="lg:col-span-3 bg-card border border-border rounded-2xl p-5 sm:p-8">
             {sent ? (
               <div className="flex flex-col items-center justify-center h-full gap-4 py-12 text-center">
                 <CheckCircle size={48} className="text-secondary" />

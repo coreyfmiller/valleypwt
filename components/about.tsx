@@ -20,9 +20,9 @@ const pillars = [
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-muted/40">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+    <section id="about" className="py-16 md:py-24 bg-muted/40">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Text */}
           <div>
             <p className="text-secondary text-sm font-semibold tracking-[0.2em] uppercase mb-3">

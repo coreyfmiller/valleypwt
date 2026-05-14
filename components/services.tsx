@@ -29,10 +29,10 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-background">
-      <div className="max-w-7xl mx-auto px-6">
+    <section id="services" className="py-16 md:py-24 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-16">
           <p className="text-secondary text-sm font-semibold tracking-[0.2em] uppercase mb-3">
             What We Do
           </p>
@@ -48,7 +48,7 @@ export default function Services() {
         </div>
 
         {/* Service cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
           {services.map((service) => {
             const Icon = service.icon
             return (
