@@ -24,8 +24,8 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-primary/80 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto mt-20 md:mt-16">
-        <p className="text-white/70 text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase mb-3 md:mb-4">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto mt-16 md:mt-12">
+        <p className="text-white/70 text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase mb-2 md:mb-3">
           Quispamsis &amp; Greater Saint John Area
         </p>
         <Image
@@ -33,17 +33,17 @@ export default function Hero() {
           alt="Valley Pressure Washing logo"
           width={1680}
           height={576}
-          className="h-[140px] sm:h-[200px] md:h-[260px] lg:h-[321px] w-auto object-contain mx-auto mb-4 md:mb-6"
+          className="h-[105px] sm:h-[150px] md:h-[195px] lg:h-[240px] w-auto object-contain mx-auto mb-3 md:mb-4"
           priority
         />
         <h1
-          className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight text-balance mb-4 md:mb-6"
+          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-3 md:mb-4"
           style={{ fontFamily: 'var(--font-heading, var(--font-sans))' }}
         >
           Restore Your Property&apos;s{' '}
           <span className="text-white">True Shine</span>
         </h1>
-        <p className="text-white/80 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-8 md:mb-10 text-pretty">
+        <p className="text-white/80 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-6 md:mb-8 text-pretty">
           Valley Pressure Washing rejuvenates your home or business exterior with the highest quality
           pressure washing services — powered by passionate local entrepreneurs.
         </p>
@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll cue */}
-        <div className="mt-10 md:mt-16 flex flex-col items-center gap-2 text-white/50">
+        <div className="mt-8 md:mt-12 flex flex-col items-center gap-2 text-white/50">
           <span className="text-xs tracking-widest uppercase">Scroll</span>
           <ArrowDown size={16} className="animate-bounce" />
         </div>
