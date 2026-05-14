@@ -1,5 +1,5 @@
 const stats = [
-  { value: '100+', label: 'Properties Cleaned' },
+  { value: '200+', label: 'Properties Cleaned' },
   { value: '5★', label: 'Average Rating' },
   { value: '100%', label: 'Eco-Friendly Solutions' },
   { value: '2024', label: 'Est. Locally in NB' },
