@@ -18,7 +18,7 @@ export default function Navbar() {
     <header
       className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md shadow-lg transition-all duration-300"
     >
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-center">
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
           {navLinks.map((link) => (
@@ -31,14 +31,6 @@ export default function Navbar() {
             </Link>
           ))}
         </nav>
-
-        {/* CTA */}
-        <a
-          href="#contact"
-          className="hidden md:inline-flex items-center gap-2 bg-secondary text-secondary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-accent transition-colors"
-        >
-          Get a Free Quote
-        </a>
 
         {/* Mobile burger */}
         <button

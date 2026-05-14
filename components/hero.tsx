@@ -31,9 +31,9 @@ export default function Hero() {
         <Image
           src="/logo.png"
           alt="Valley Pressure Washing logo"
-          width={560}
-          height={192}
-          className="h-[107px] w-auto object-contain mx-auto mb-6"
+          width={1680}
+          height={576}
+          className="h-[321px] w-auto object-contain mx-auto mb-6"
           priority
         />
         <h1
