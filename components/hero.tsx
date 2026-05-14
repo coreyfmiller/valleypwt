@@ -1,10 +1,9 @@
 import Image from 'next/image'
-import { ArrowDown } from 'lucide-react'
 
 export default function Hero() {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden pt-16"
       aria-label="Hero section"
     >
       {/* Background image */}
@@ -24,7 +23,7 @@ export default function Hero() {
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-primary/80 to-transparent" />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto mt-16 md:mt-12">
+      <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto py-8">
         <p className="text-white/70 text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase mb-2 md:mb-3">
           Quispamsis &amp; Greater Saint John Area
         </p>
@@ -43,7 +42,7 @@ export default function Hero() {
           Restore Your Property&apos;s{' '}
           <span className="text-white">True Shine</span>
         </h1>
-        <p className="text-white/80 text-base sm:text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-6 md:mb-8 text-pretty">
+        <p className="text-white/80 text-sm sm:text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-6 md:mb-8 text-pretty">
           Valley Pressure Washing rejuvenates your home or business exterior with the highest quality
           pressure washing services — powered by passionate local entrepreneurs.
         </p>
@@ -51,22 +50,16 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <a
             href="#contact"
-            className="bg-secondary text-secondary-foreground px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:bg-accent transition-colors shadow-lg"
+            className="bg-secondary text-secondary-foreground px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:bg-accent transition-colors shadow-lg"
           >
             Get a Free Quote
           </a>
           <a
             href="#services"
-            className="border border-white/50 text-white px-6 sm:px-8 py-3.5 sm:py-4 rounded-full text-sm sm:text-base font-semibold hover:bg-white/10 transition-colors"
+            className="border border-white/50 text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base font-semibold hover:bg-white/10 transition-colors"
           >
             Our Services
           </a>
-        </div>
-
-        {/* Scroll cue */}
-        <div className="mt-8 md:mt-12 flex flex-col items-center gap-2 text-white/50">
-          <span className="text-xs tracking-widest uppercase">Scroll</span>
-          <ArrowDown size={16} className="animate-bounce" />
         </div>
       </div>
     </section>
