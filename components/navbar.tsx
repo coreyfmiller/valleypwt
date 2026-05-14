@@ -1,7 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
-import Image from 'next/image'
+import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 
@@ -14,33 +13,12 @@ const navLinks = [
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20)
-    window.addEventListener('scroll', onScroll)
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-primary/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md shadow-lg transition-all duration-300"
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <Link href="#" className="flex items-center gap-2 shrink-0">
-          <Image
-            src="/logo.png"
-            alt="Valley Pressure Washing logo"
-            width={560}
-            height={192}
-            className="h-[107px] w-auto object-contain"
-            priority
-          />
-        </Link>
-
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
           {navLinks.map((link) => (

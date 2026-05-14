@@ -28,6 +28,14 @@ export default function Hero() {
         <p className="text-white/70 text-sm font-semibold tracking-[0.2em] uppercase mb-4">
           Quispamsis &amp; Greater Saint John Area
         </p>
+        <Image
+          src="/logo.png"
+          alt="Valley Pressure Washing logo"
+          width={560}
+          height={192}
+          className="h-[107px] w-auto object-contain mx-auto mb-6"
+          priority
+        />
         <h1
           className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight text-balance mb-6"
           style={{ fontFamily: 'var(--font-heading, var(--font-sans))' }}
